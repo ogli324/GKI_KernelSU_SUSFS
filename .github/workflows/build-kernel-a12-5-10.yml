@@ -50,6 +50,11 @@ on:
         required: true
         type: boolean
         default: true
+      BBG:
+        description: '是否启用BBG功能？'
+        required: true
+        type: boolean
+        default: false
 jobs:
   build-kernel-a12-5-10:
     uses: ./.github/workflows/kernel-a12-5.10.yml
